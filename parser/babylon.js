@@ -18,13 +18,13 @@ const options = {
   allowReturnOutsideFunction: true,
   plugins: [
     'jsx',
-    'flow',
+    'typescript',
     'asyncFunctions',
     'classConstructorCall',
     'doExpressions',
     'trailingFunctionCommas',
     'objectRestSpread',
-    'decorators',
+    'decorators-legacy',
     'classProperties',
     'exportExtensions',
     'exponentiationOperator',
@@ -35,6 +35,10 @@ const options = {
     'nullishCoalescingOperator',
     'optionalChaining',
     'numericSeparator',
+    'optionalCatchBinding',
+    'exportDefaultFrom',
+    'exportNamespaceFrom',
+    'throwExpressions',
   ],
 };
 
